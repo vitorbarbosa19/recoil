@@ -1,0 +1,24 @@
+{
+  "name": "recoil-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@welldone-software/why-did-you-render": "^6.0.5",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "firebase": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactfire": "^3.0.0-rc.0",
+    "recoil": "^0.1.2"
+  }
+}
